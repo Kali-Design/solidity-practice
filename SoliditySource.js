@@ -34,3 +34,5 @@ contract SolidityCourse is logger.Logger {      // Declaration du contract
         return getAll();
     }
 }
+
+//Working progress
