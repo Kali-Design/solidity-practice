@@ -6,9 +6,11 @@ import './Logger.sol' as logger;                // import de ./Logger.sol
 
 contract SolidityCourse is logger.Logger {      // Declaration du contract
     address private owner;
+    uint public max;
 
-    constructor() public {
+    constructor(uint _max) public {
         owner = msg.sender;
+        max = _max;
     }
 
     function whoIsOwner() public returns(address) {
@@ -35,4 +37,3 @@ contract SolidityCourse is logger.Logger {      // Declaration du contract
     }
 }
 
-//Working progress

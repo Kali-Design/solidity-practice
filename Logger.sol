@@ -18,5 +18,3 @@ contract Logger {                               // Declaration du contract
         return logs;
     }
 }
-
-//Working progress
